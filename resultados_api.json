@@ -1,0 +1,14 @@
+[
+    {
+        "arquitectura": "REST individual",
+        "eventos": 100,
+        "tiempo_promedio_segundos": 2.88075,
+        "eventos_por_segundo": 34.71
+    },
+    {
+        "arquitectura": "Procesamiento por lotes (Batch)",
+        "eventos": 100,
+        "tiempo_promedio_segundos": 1.356111,
+        "eventos_por_segundo": 73.74
+    }
+]

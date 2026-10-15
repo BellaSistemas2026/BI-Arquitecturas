@@ -1,0 +1,22 @@
+{
+  "tipo": "benchmark local simulado",
+  "eventos_generados": 10000,
+  "mediciones_por_arquitectura": 5,
+  "resultados": [
+    {
+      "arquitectura": "Lambda",
+      "eventos": 10000,
+      "tiempo_segundos": 0.0004651400000057038,
+      "eventos_por_segundo": 21498903.555655017,
+      "fecha": "2026-10-15 11:18:47"
+    },
+    {
+      "arquitectura": "Kappa",
+      "eventos": 10000,
+      "tiempo_segundos": 0.0016403799999807234,
+      "eventos_por_segundo": 6096148.453478775,
+      "fecha": "2026-10-15 11:18:47"
+    }
+  ],
+  "nota": "Compara el tiempo de las funciones de procesamiento en memoria; no mide una plataforma distribuida ni la latencia de red."
+}
