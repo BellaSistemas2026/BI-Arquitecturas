@@ -1,14 +1,16 @@
 [
     {
         "arquitectura": "REST individual",
-        "eventos": 100,
-        "tiempo_promedio_segundos": 2.88075,
-        "eventos_por_segundo": 34.71
+        "eventos_por_repeticion": 100,
+        "repeticiones": 3,
+        "tiempo_promedio_segundos": 1.469181,
+        "rendimiento_eventos_segundo": 68.07
     },
     {
-        "arquitectura": "Procesamiento por lotes (Batch)",
-        "eventos": 100,
-        "tiempo_promedio_segundos": 1.356111,
-        "eventos_por_segundo": 73.74
+        "arquitectura": "Batch",
+        "eventos_por_repeticion": 100,
+        "repeticiones": 3,
+        "tiempo_promedio_segundos": 0.106163,
+        "rendimiento_eventos_segundo": 941.95
     }
 ]
